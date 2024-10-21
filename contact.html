@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="fr">
+<link rel="stylesheet" href="style.css">
+
+    <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width", initial-scale="1.O">
+    <title>BloomPetals - contact</title>
+    <meta name="description" content=" Conception de magnifiques bouquets floraux pour embellir vos événements
+    spéciaux. " >
+    </head>
+
+    <body>
+        <header> 
+    
+            <nav class="navbar"> 
+                <span class="navlinks">
+                    <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="entreprise.html">Entreprise</a></li>
+                <li><a href="realisations.html">Réalisations</a></li>
+                <li><a href="contact.html">Contact</a></li>
+                    </ul>
+                </span> 
+                <div class="search"><input type="search" name="search" placeholder="recherche"/></div>
+            
+            <img src="images/hamburger.png" class="menu-hamburger">
+            
+            </nav>
+        </header>
+        
+
+    <div class="logo2">
+        <h1>Contact</h1>
+        <img src="images/Flower.png"></img>
+        </div>
+
+        <hr>
+
+<div class="form" action="#">
+
+    <fieldset class="part1">
+        <select class="civilite">
+            <option>--Civilité--</option>
+            <option>Monsieur</option>
+            <option>Madame</option>
+            <option>Autre</option>
+        </select>
+    </fieldset>
+
+    <fieldset class="part2">
+<label>Nom : </label><input type="text" required/> 
+<label>Prénom : </label><input type="text" required/> 
+<label>Adresse postale : </label><textarea cols="5" required></textarea>
+    </fieldset>
+
+    <fieldset class="part3">
+<p> J'accepte la politique de confidentialité de l’entreprise <input type="checkbox" required/></p>
+
+<input type="submit" value="Envoyer"/>
+    </fieldset>
+
+</div>
+
+<footer></footer>
+
+</body>
+
+<script>
+    const menuHamburger = document.querySelector(".menu-hamburger")
+    const navLinks = document.querySelector(".navlinks")
+
+    menuHamburger.addEventListener('click',()=>{
+    navLinks.classList.toggle('mobile-menu')
+    })
+</script>
+
+</html>
