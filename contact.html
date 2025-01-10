@@ -1,78 +1,77 @@
 <!DOCTYPE html>
 <html lang="fr">
-<link rel="stylesheet" href="style.css">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width" , initial-scale="1.O" />
+    <title>BloomPetals</title>
+    <meta
+      name="description"
+      content=" Conception de magnifiques bouquets floraux pour embellir vos événements
+        spéciaux. " />
+    <link rel="stylesheet" href="style.css" />
+  </head>
 
-    <head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width", initial-scale="1.O">
-    <title>BloomPetals - contact</title>
-    <meta name="description" content=" Conception de magnifiques bouquets floraux pour embellir vos événements
-    spéciaux. " >
-    </head>
+  <body>
+    <header>
+      <label for="bg-menu"> ☰ </label>
+      <input type="checkbox" id="bg-menu" />
 
-    <body>
-        <header> 
-    
-            <nav class="navbar"> 
-                <span class="navlinks">
-                    <ul>
-                <li><a href="index.html">Home</a></li>
-                <li><a href="entreprise.html">Entreprise</a></li>
-                <li><a href="realisations.html">Réalisations</a></li>
-                <li><a href="contact.html">Contact</a></li>
-                    </ul>
-                </span> 
-                <div class="search"><input type="search" name="search" placeholder="recherche"/></div>
-            
-            <img src="images/hamburger.png" class="menu-hamburger">
-            
-            </nav>
-        </header>
-        
-
-    <div class="logo2">
-        <h1>Contact</h1>
-        <img src="images/Flower.png"></img>
+      <nav class="nav-bar">
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="entreprise.html">Entreprise</a></li>
+          <li><a href="realisations.html">Réalisations</a></li>
+          <li><a href="contact.html">Contact</a></li>
+        </ul>
+        <div class="search">
+          <input type="search" name="search" placeholder="recherche" />
         </div>
+      </nav>
+    </header>
 
-        <hr>
+    <main>
+      <div class="logo2">
+        <h1>Contact</h1>
+        <img src="images/Flower.png" />
+      </div>
 
-<div class="form" action="#">
+      <hr />
 
-    <fieldset class="part1">
-        <select class="civilite">
+      <section class="form" action="#">
+        <section class="top-box">
+          <select class="civilite">
             <option>--Civilité--</option>
             <option>Monsieur</option>
             <option>Madame</option>
             <option>Autre</option>
-        </select>
-    </fieldset>
+          </select>
+        </section>
 
-    <fieldset class="part2">
-<p>Nom : </p><input type="text" required/> 
-<p>Prénom : </p><input type="text" required/> 
-<p>Adresse postale : </p><textarea cols="5" required></textarea>
-    </fieldset>
+        <section class="mid-box">
+          <article class="info">
+            <p>Nom :</p>
+            <input type="text" required />
+          </article>
+          <article class="info">
+            <p>Prénom :</p>
+            <input type="text" required />
+          </article>
+          <article class="info">
+            <p>Adresse postale :</p>
+            <textarea cols="5" required></textarea>
+          </article>
+        </section>
 
-    <fieldset class="part3">
-<p> J'accepte la politique de confidentialité de l’entreprise <input type="checkbox" required/></p>
+        <section class="bottom-box">
+          <article class="check">
+            <p>J'accepte la politique de confidentialité de l’entreprise</p>
+            <input type="checkbox" required />
+          </article>
 
-<input type="submit" value="Envoyer"/>
-    </fieldset>
-
-</div>
-
-<footer></footer>
-
-</body>
-
-<script>
-    const menuHamburger = document.querySelector(".menu-hamburger")
-    const navLinks = document.querySelector(".navlinks")
-
-    menuHamburger.addEventListener('click',()=>{
-    navLinks.classList.toggle('mobile-menu')
-    })
-</script>
-
+          <input type="submit" value="Envoyer" />
+        </section>
+      </section>
+      <footer>Copyrights_BloomPetals_2024</footer>
+    </main>
+  </body>
 </html>
