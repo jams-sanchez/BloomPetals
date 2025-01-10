@@ -120,7 +120,9 @@ footer {
 
 .entreprise,
 .box-img,
-.services-box {
+.services-box,
+.value-box,
+.equipe-box {
     width: 60%;
     padding: 2rem;
 }
@@ -218,45 +220,72 @@ footer {
     max-width: 15%;
 }
 
-/* equipe */ 
-
-.equipe {
-    display: flex;
-    justify-content: space-around;
-    flex-flow: row wrap;
-    background-color: white;
-    border: 1px solid #eaeaea;
-}
-
-.equipe img {
-    max-width: 26%;
-    object-fit: cover;
-    margin:1em;
-    border: 4px solid #ececec;
-    filter:grayscale(100%);
-    opacity: 0.4;
-}
-
-.equipe img:hover {
-    opacity: 1;
-    border: 4px solid #ececec;
-    outline: 4px solid #fbb111;
-    filter:grayscale(0%)
-}
-
 /* qualite */
 
-.section3 {
+.value-box {
     display:flex;
-    justify-content: space-around;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem 2rem;
     flex-flow: row wrap;
     background-color: white;
     border: 1px solid #eaeaea;
 }
 
 .quality {
-    padding:1em;
-    width:40%;
+    width:45%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1rem;
+    padding: 0 1rem;
+}
+
+.quality h5 {
+    text-transform: uppercase;
+}
+
+.violet h5 {
+    color: #8839AE ;
+}
+
+.red h5 {
+    color: #F71F25 ;
+}    
+
+.orange h5 {
+    color: #FD5C2E ;
+}
+
+.yellow h5 {
+    color: #FCAB44 ;
+}
+
+/* equipe */ 
+
+.equipe-box {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem 2rem;
+    flex-flow: row wrap;
+    background-color: white;
+    border: 1px solid #eaeaea;
+}
+
+.equipe-box img {
+    width: 30%;
+    height: 20rem;
+    object-fit: cover;
+    object-position: top;
+    border: 4px solid #ececec;
+}
+
+.equipe-box img:hover {
+    opacity: 1;
+    border: 4px solid #ececec;
+    outline: 4px solid #fbb111;
+    filter:grayscale(0%)
 }
 
 /* -------- PAGE contact --------- */
@@ -402,8 +431,8 @@ input[type="submit"] {
         justify-content: center;
     }
 
-    .entreprise, .box-img, .services-box, .section3,
-    .equipe {
+    .entreprise, .box-img, .services-box, .value-box,
+    .equipe-box {
     margin: 1em auto;
     padding: 2em;
     max-width: 110vh;
