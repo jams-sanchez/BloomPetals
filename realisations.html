@@ -1,89 +1,92 @@
 <!DOCTYPE html>
 <html lang="fr">
-<link rel="stylesheet" href="style.css">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width" , initial-scale="1.O" />
+    <title>BloomPetals</title>
+    <meta
+      name="description"
+      content=" Conception de magnifiques bouquets floraux pour embellir vos événements
+        spéciaux. " />
+    <link rel="stylesheet" href="style.css" />
+  </head>
 
-    <head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width", initial-scale="1.O">
-    <title>BloomPetals - réalisations</title>
-    <meta name="description" content=" Conception de magnifiques bouquets floraux pour embellir vos événements
-    spéciaux. " >
-    </head>
+  <body>
+    <header>
+      <label for="bg-menu"> ☰ </label>
+      <input type="checkbox" id="bg-menu" />
 
-    <body>
-        <header> 
-    
-            <nav class="navbar"> 
-                <span class="navlinks">
-                    <ul>
-                <li><a href="index.html">Home</a></li>
-                <li><a href="entreprise.html">Entreprise</a></li>
-                <li><a href="realisations.html">Réalisations</a></li>
-                <li><a href="contact.html">Contact</a></li>
-                    </ul>
-                </span> 
-                <div class="search"><input type="search" name="search" placeholder="recherche"/></div>
-            
-            <img src="images/hamburger.png" class="menu-hamburger">
-            
-            </nav>
-        </header>
-
-    <div class="logo2">
-        <h1>Nos Réalisations </h1>
-        <img src="images/Flower.png"></img>
+      <nav class="navbar">
+        <span class="navlinks">
+          <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="entreprise.html">Entreprise</a></li>
+            <li><a href="realisations.html">Réalisations</a></li>
+            <li><a href="contact.html">Contact</a></li>
+          </ul>
+        </span>
+        <div class="search">
+          <input type="search" name="search" placeholder="recherche" />
         </div>
+      </nav>
+    </header>
 
-        <hr>
+    <main>
+      <div class="logo2">
+        <h1>Nos Réalisations</h1>
+        <img src="images/Flower.png" />
+      </div>
 
-        <div class="mosaic">
-                
+      <hr class="realisations" />
 
-        <div class="box boxsize3"><img src="images/vu1.jpg"></img></div>
-        <div class="box boxsize2"><img src="images/view2.jpg"></img></div>
-        <div class="box boxsize1"><img src="images/view3.jpg"></img></div>
-        <div class="box boxsize2"><img src="images/view4.jpg"></img></div>
-        <div class="box boxsize3"><img src="images/view1.jpg"></img></div>
-        <div class="box boxsize3"><img src="images/vu1.jpg"></img></div>
-        <div class="box boxsize2"><img src="images/view2.jpg"></img></div>
-        <div class="box boxsize1"><img src="images/view3.jpg"></img></div>
-        <div class="box boxsize2"><img src="images/view4.jpg"></img></div>
-        <div class="box boxsize3"><img src="images/view1.jpg"></img></div>
-        <div class="box boxsize1"><img src="images/vu4.jpg"></img></div>
-        <div class="box boxsize3"><img src="images/vu3.jpg"></img></div>
-        <div class="box boxsize2"><img src="images/vu2.jpg"></img></div>
-        <div class="box boxsize1"><img src="images/vu4.jpg"></img></div>
-        <div class="box boxsize3"><img src="images/vu3.jpg"></img></div>
-        <div class="box boxsize2"><img src="images/vu2.jpg"></img></div>
-                
+      <section class="mosaic">
+        <div class="tile">
+          <img src="images/vu1.jpg" />
         </div>
-
-
-
-        <!-- <div class="image size1"><img src="images/view1.jpg"></img></div>
-        <div class="image size1"><img src="images/view2.jpg"></img></div>
-        <div class="image size2"><img src="images/view3.jpg"></img></div>
-        <div class="image size3"><img src="images/view4.jpg"></img></div>
-        <div class="image size1"><img src="images/vu1.jpg"></img></div>
-        <div class="image size2"><img src="images/vu2.jpg"></img></div>
-        <div class="image size1"><img src="images/vu3.jpg"></img></div>
-        <div class="image size3"><img src="images/vu4.jpg"></img></div> -->
-
-
-    </div>       
-    
-
-<footer></footer>
-
-</body>
-
-<script>
-    const menuHamburger = document.querySelector(".menu-hamburger")
-    const navLinks = document.querySelector(".navlinks")
-
-    menuHamburger.addEventListener('click',()=>{
-    navLinks.classList.toggle('mobile-menu')
-    })
-</script>
-
+        <div class="tile">
+          <img src="images/vu2.jpg" />
+        </div>
+        <div class="tile">
+          <img src="images/vu3.jpg" />
+        </div>
+        <div class="tile">
+          <img src="images/vu4.jpg" />
+        </div>
+        <div class="tile">
+          <img src="images/view1.jpg" />
+        </div>
+        <div class="tile">
+          <img src="images/view2.jpg" />
+        </div>
+        <div class="tile">
+          <img src="images/view3.jpg" />
+        </div>
+        <div class="tile">
+          <img src="images/view4.jpg" />
+        </div>
+        <div class="tile">
+          <img src="images/vu1.jpg" />
+        </div>
+        <div class="tile">
+          <img src="images/vu2.jpg" />
+        </div>
+        <div class="tile">
+          <img src="images/vu3.jpg" />
+        </div>
+        <div class="tile">
+          <img src="images/vu4.jpg" />
+        </div>
+        <div class="tile">
+          <img src="images/view1.jpg" />
+        </div>
+        <div class="tile">
+          <img src="images/view2.jpg" />
+        </div>
+        <div class="tile">
+          <img src="images/view3.jpg" />
+        </div>
+      </section>
+    </main>
+    <footer>Copyrights_BloomPetals_2024</footer>
+  </body>
 </html>
